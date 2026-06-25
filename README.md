@@ -1,72 +1,67 @@
-# Netfly Multi-Device Client
-Official multi-platform Android client installation repository
-
+# Netfly Multi-Screen TV Client Official Repository
 ## 1. Project Overview
-Netfly is a multi-screen playback client adapted for all Android-based devices.
-This repository centrally stores official signed installation packages for Fire TV, Android TV, TV Box, Android Mobile & Tablet, providing permanent direct download links for side-load installation via Downloader.
+Netfly Multi-Screen TV Client is a unified large-screen playback client compatible with all Android TV-based devices.
+This repository stores official signed installation packages, providing permanent HTTPS direct links for side-load installation via Downloader on TV devices.
 
-Supported device list:
-- Amazon Fire TV / Fire TV Stick series
-- All brand Android Smart TV
-- Android TV Box (domestic & overseas set-top boxes)
-- Android smartphones
-- Android large-screen tablets
+Compatible device scope:
+- Amazon Fire TV / Fire TV Stick / Fire TV Cube series
+- All brands of native Android Smart TV
+- Global Android TV Box & set-top boxes
 
-## 2. Official Version & Permanent Download Links
-### 2.1 Fire TV Exclusive Build
+## 2. Current Official TV Unified Release
+### Unified TV Version (FireTV + Android TV + TV Box All-in-One)
 Version: v3.0.3
 Package File: `netfly_3.0.3_FireTV.apk`
 Download URL:
 `https://github.com/NFLAB-OF/NFLAB/releases/download/v3.0.3/netfly_3.0.3_FireTV.apk`
-Optimization: Fire TV remote control adaptation, TV vertical screen layout removed, FireOS system compatibility optimized.
+Core Optimization:
+1. Full remote control key adaptation for FireTV & Android TV standard remotes
+2. Large-screen exclusive UI layout, automatically adapts all TV resolution
+3. Low memory optimization for entry-level TV boxes
+4. Native FireOS & Android TV system dual compatibility
 
-### 2.2 Android TV / TV Box Build
-Version: Waiting for release
+### 2.2 Android Mobile Phone Build (Coming Soon)
+Version: Waiting for official release
 Download URL: To be updated after new version published
-Optimization: Large screen UI, TV remote key mapping, box memory limit adaptation.
+Optimization: Touch-oriented vertical screen layout for smartphones
 
-### 2.3 Android Mobile Build
-Version: Waiting for release
+### 2.3 Android Tablet Build (Coming Soon)
+Version: Waiting for official release
 Download URL: To be updated after new version published
-Optimization: Touch operation, mobile vertical screen layout, battery power consumption optimization.
+Optimization: Split horizontal screen layout for tablet large displays
 
-### 2.4 Android Tablet Build
-Version: Waiting for release
-Download URL: To be updated after new version published
-Optimization: Split-screen layout, horizontal screen adaptive rendering.
+## 3. TV Side-Load Installation Guide
+### Preparations
+1. Install Downloader from Amazon Appstore or TV built-in application store
+2. Enable permission: `Allow installation of unknown third-party applications` in system security settings
 
-## 3. Side-Load Installation Guide (For TV & Box Devices)
-### 3.1 Preparations
-1. Install `Downloader` application from Amazon Appstore / TV built-in app store
-2. Enable permission: `Allow installation of unknown third-party applications` in system settings
+### Step-by-Step Installation
+1. Launch Downloader, paste the full TV unified download link into address bar
+2. Tap Go and wait for APK full download
+3. Complete installation following system pop-up prompts
+4. Launch Netfly from your device app list after installation finished
 
-### 3.2 Installation Steps
-1. Open Downloader, paste the matching device download link into address bar
-2. Tap Go, wait for APK file full download
-3. System will pop up installation window, click Install
-4. After installation complete, open Netfly from device application list
-
-## 4. Version Update Rule
-1. All new official releases will be published under GitHub Releases page
-2. This README file will synchronously update the latest download links of all device versions
+## 4. Version Management Specification
+1. All new official iterations will be released on GitHub Releases page
+2. This README will synchronously update the latest download links of all device branches
 3. Full historical version archive: https://github.com/NFLAB-OF/NFLAB/releases
-4. Version number specification: Semantic Versioning `vX.Y.Z`
-   - X: Major functional iteration
-   - Y: Medium feature upgrade
-   - Z: Bug fix & compatibility patch
+4. Semantic Version Rule: `vX.Y.Z`
+   - X: Major core function upgrade
+   - Y: Medium feature & UI iteration
+   - Z: Compatibility bug fixes & stability patches
 
-## 5. Frequently Asked Questions (FAQ)
-### Q1: Download link cannot be loaded in Downloader
-A1: Confirm full HTTPS link copied completely without missing characters; refresh page to get latest release link.
-### Q2: Installation blocked by system
-A2: Go to device security settings, enable unknown source install permission for Downloader.
-### Q3: Where to get historical old versions
-A3: Visit Releases page to view all published installation packages.
+## 5. FAQ
+### Q1: Link fails to download in Downloader
+A1: Copy the complete HTTPS link without truncation; refresh Releases page to get valid latest link.
+### Q2: System blocks APK installation
+A2: Grant unknown source installation permission to Downloader in device security settings.
+### Q3: Can this APK run on both Fire TV and regular Android boxes?
+A3: Yes, this is a unified all-in-one build optimized for all large-screen Android-based devices.
 
-## 6. Repository Maintainer
+## 6. Maintain Information
 Organization: NFLAB
-Release & Package Maintainer: NFLAB-OF
+Package Publisher: NFLAB-OF
 
 ## 7. Copyright Statement
 Copyright © NFLAB. All rights reserved.
-Unauthorized repackaging, secondary modification and redistribution of the official APK packages in this repository are prohibited.
+Prohibit unauthorized repackaging, modification and secondary distribution of official APK files in this repository.
