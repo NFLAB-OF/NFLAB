@@ -11,19 +11,6 @@ File: netfly_3.0.3_FireTV.apk
 Download URL:
 https://github.com/NFLAB-OF/NFLAB/releases/download/v3.0.3/netfly_3.0.3_FireTV.apk
 
-### 2. Android TV / TV Box Version
-Adapted for mainstream Android TV, all brand TV boxes
-Download URL:
-
-### 3. Android Mobile Phone Version
-For Android smartphones
-Download URL:
-
-### 4. Android Tablet Version
-Large-screen tablet optimized layout
-Download URL:
-
-
 ---
 
 ## Fire TV / TV Box Installation Guide
