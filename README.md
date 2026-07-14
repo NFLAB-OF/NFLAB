@@ -22,7 +22,7 @@ Core Optimization:
 
 ### 2.2 Android Mobile Phone Build 
 Version: Waiting for official release
-Download URL: [To be updated after new version published](https://github.com/NFLAB-OF/NFLAB/releases/download/v3.0.3/netfly_mobile.v3.0.3.apk)
+Download URL: https://github.com/NFLAB-OF/NFLAB/releases/download/v3.0.3/netfly_mobile.v3.0.3.apk
 Optimization: Touch-oriented vertical screen layout for smartphones
 
 ### 2.3 Android Tablet Build (Coming Soon)
