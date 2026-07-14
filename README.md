@@ -27,7 +27,7 @@ Optimization: Touch-oriented vertical screen layout for smartphones
 
 ### 2.3 Android Tablet Build (Coming Soon)
 Version: Waiting for official release
-Download URL: To be updated after new version published
+Download URL: https://github.com/NFLAB-OF/NFLAB/releases/download/v3.0.3/netfly_mobile.v3.0.3.apk
 Optimization: Split horizontal screen layout for tablet large displays
 
 ## 3. TV Side-Load Installation Guide
