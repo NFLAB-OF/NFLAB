@@ -1,67 +1,56 @@
-# Netfly Multi-Screen TV Client Official Repository
-## 1. Project Overview
-Netfly Multi-Screen TV Client is a unified large-screen playback client compatible with all Android TV-based devices.
-This repository stores official signed installation packages, providing permanent HTTPS direct links for side-load installation via Downloader on TV devices.
+# Netfly
 
-Compatible device scope:
-- Amazon Fire TV / Fire TV Stick / Fire TV Cube series
-- All brands of native Android Smart TV
-- Global Android TV Box & set-top boxes
+**Netfly** is the family player for movies, series, live TV with a TV guide, and music. It runs on Fire TV, Android TV and Google TV smart TVs, Android TV boxes, Android phones and tablets, Mac and Windows.
 
-## 2. Current Official TV Unified Release
-### Unified TV Version (FireTV + Android TV + TV Box All-in-One)
-Version: v3.0.3
-Package File: `netfly_3.0.3_FireTV.apk`
-Download URL:
-`https://github.com/NFLAB-OF/NFLAB/releases/download/v3.0.3/netfly_3.0.3_FireTV.apk`
-Core Optimization:
-1. Full remote control key adaptation for FireTV & Android TV standard remotes
-2. Large-screen exclusive UI layout, automatically adapts all TV resolution
-3. Low memory optimization for entry-level TV boxes
-4. Native FireOS & Android TV system dual compatibility
+🌐 **Website:** [netfly.today](https://netfly.today) · [Español](https://netfly.today/es/) · [Français](https://netfly.today/fr/) · [Português](https://netfly.today/pt/) · [العربية](https://netfly.today/ar/)
 
-### 2.2 Android Mobile Phone Build 
-Version: Waiting for official release
-Download URL: https://github.com/NFLAB-OF/NFLAB/releases/download/v3.0.3/netfly_mobile.v3.0.3.apk
-Optimization: Touch-oriented vertical screen layout for smartphones
+## Download
 
-### 2.3 Android Tablet Build (Coming Soon)
-Version: Waiting for official release
-Download URL: 
-Optimization: Split horizontal screen layout for tablet large displays
+All official installation files are published on the **[Releases page](https://github.com/NFLAB-OF/NFLAB/releases)**. Open the latest release and download the file for your device:
 
-## 3. TV Side-Load Installation Guide
-### Preparations
-1. Install Downloader from Amazon Appstore or TV built-in application store
-2. Enable permission: `Allow installation of unknown third-party applications` in system security settings
+| Device | File to pick |
+|---|---|
+| Fire TV, Android TV / Google TV smart TV, TV box | the TV file (name contains `tv`, `tvbox` or `FireTV`) |
+| Android phone | the file whose name contains `mobile` |
+| Android tablet | the file whose name contains `tablet` |
+| Mac | the `.dmg` file |
+| Windows | the `.exe` file |
 
-### Step-by-Step Installation
-1. Launch Downloader, paste the full TV unified download link into address bar
-2. Tap Go and wait for APK full download
-3. Complete installation following system pop-up prompts
-4. Launch Netfly from your device app list after installation finished
+Not sure which one you need? The [download page](https://netfly.today/download) picks the right file for your device.
 
-## 4. Version Management Specification
-1. All new official iterations will be released on GitHub Releases page
-2. This README will synchronously update the latest download links of all device branches
-3. Full historical version archive: https://github.com/NFLAB-OF/NFLAB/releases
-4. Semantic Version Rule: `vX.Y.Z`
-   - X: Major core function upgrade
-   - Y: Medium feature & UI iteration
-   - Z: Compatibility bug fixes & stability patches
+## Install on a TV
 
-## 5. FAQ
-### Q1: Link fails to download in Downloader
-A1: Copy the complete HTTPS link without truncation; refresh Releases page to get valid latest link.
-### Q2: System blocks APK installation
-A2: Grant unknown source installation permission to Downloader in device security settings.
-### Q3: Can this APK run on both Fire TV and regular Android boxes?
-A3: Yes, this is a unified all-in-one build optimized for all large-screen Android-based devices.
+The quickest way on Fire TV, Android TV, Google TV and TV boxes is the free **Downloader** app:
 
-## 6. Maintain Information
-Organization: NFLAB
-Package Publisher: NFLAB-OF
+1. Install **Downloader** from the Amazon Appstore (Fire TV) or Google Play (Android TV / Google TV).
+2. Allow Downloader to install unknown apps in the TV's settings.
+3. Open Downloader and type the code **`6375545`**, then select **Go**.
+4. Choose **Install**, then open Netfly.
 
-## 7. Copyright Statement
+Step-by-step guides:
+[Fire TV](https://netfly.today/install/fire-tv) · [Android TV and Google TV](https://netfly.today/install/android-tv) · [TV box](https://netfly.today/install/tv-box) · [About the Downloader code](https://netfly.today/downloader-code)
+
+## Install on other devices
+
+- **Android phone or tablet:** see the [Android guide](https://netfly.today/install/android). Netfly isn't on Google Play, so Android asks you to allow the install and may show a security warning. That's expected: tap **More** / **More details**, then **Install anyway**.
+- **Mac:** see the [Mac guide](https://netfly.today/install/mac).
+- **Windows:** see the [Windows guide](https://netfly.today/install/windows).
+- **iPhone and iPad:** there is no download. A local Netfly dealer sets it up for you, see [Netfly on iPhone and iPad](https://netfly.today/install/iphone).
+
+## Help
+
+- [Install help](https://netfly.today/help): fixes for not enough space, blocked installs, security warnings and downloads that won't start.
+- [TV tips](https://netfly.today/tips): installing APKs on Fire TV, allowing unknown sources, freeing up storage, installing from USB.
+
+## News
+
+Follow the latest Netfly news on our [Telegram channel](https://t.me/netflyhome) and [WhatsApp channel](https://whatsapp.com/channel/0029VbASpH8C1FuK23hVtQ0r).
+
+## Safety
+
+Only download Netfly from this repository's [Releases page](https://github.com/NFLAB-OF/NFLAB/releases) or from [netfly.today](https://netfly.today). Copies from other sites may be modified.
+
+## Copyright
+
 Copyright © NFLAB. All rights reserved.
-Prohibit unauthorized repackaging, modification and secondary distribution of official APK files in this repository.
+Unauthorized repackaging, modification or redistribution of the official installation files in this repository is prohibited.
