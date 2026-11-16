@@ -1,4 +1,5 @@
 # Netfly
+<img width="1920" height="1080" alt="loadingPage" src="https://github.com/user-attachments/assets/6b2ee863-f4b8-4317-828f-b6573fcd17ea" />
 
 **Netfly** is the family player for movies, series, live TV with a TV guide, and music. It runs on Fire TV, Android TV and Google TV smart TVs, Android TV boxes, Android phones and tablets, Mac and Windows.
 
